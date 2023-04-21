@@ -9,8 +9,33 @@
     <title>Iniciar Sesión</title>
 </head>
 <body>
-    <header>
-        
-    </header>
+
+    <main>
+        <div class="login-box">
+            <img src="/source/icons/icono.png" alt="">
+            <h1>Iniciar Sesión</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Username</legend>
+                    <label for="userName">Nombre de usuario</label>
+                    <input type="text" name="userName" id="userName" placeholder="Ingrese nombre de usuario">
+                </fieldset>
+                <fieldset>
+                    <legend>Contraseña</legend>
+                    <label for="userName">Nombre de usuario</label>
+                    <input type="password" name="userName" id="userName" placeholder="Ingrese contraseña">
+                </fieldset>
+                <div class="button-box">
+                    <input class="box_button success" type="submit" value="Iniciar Sesión">
+                    <input class="box_button cancel" type="reset" value="Cancelar">
+                </div>
+                <div class="message-box">
+                    <span>¿No tienes cuenta?, <a href="#">Registrate</a></span>
+                    <a href="#">¿olvidaste tu contraseña?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
 </body>
 </html>
