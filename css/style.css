@@ -33,8 +33,9 @@ main{
     width: 400px;
     height: 500px;
 
-    background-color: var(--barras);
+    /*background-color: var(--barras);*/
     border-radius: 20px;
+    backdrop-filter: blur(50px);
 
 }
 
@@ -69,6 +70,7 @@ main img{
 .login-box h1{
 
     margin: 0 auto;
+    margin-top: 5px;
 
     color: var(--letra-blanca);
 
@@ -97,6 +99,7 @@ form fieldset{
 
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    align-items: center;
 
     border: 0.1rem solid var(--fondo);
     border-bottom: none;
@@ -116,6 +119,7 @@ fieldset input{
     padding: 2px;
 
     width: 100%;
+    height: 30px;
 
     color: var(--cancel);
 
