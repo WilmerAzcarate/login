@@ -5,6 +5,8 @@
     --fondo:#bf7373;
     --letra:white;
     --letra-blanca:#733c50;
+    --success-hover:rgb(74, 130, 165,0.6);
+    --cancel-hover:rgb(115, 60, 80,0.6);
 }
 
 *{
@@ -21,7 +23,7 @@ html{
 body{
     width: 100%;
     height: 100vh;
-    background-image: url("/source/images/fondo.jpg");
+    background-image: url("/public/source/images/fondo.jpg");
     background-size:cover;
 }
 
@@ -33,7 +35,7 @@ main{
     width: 400px;
     height: 500px;
 
-    /*background-color: var(--barras);*/
+    background-color: var(--barras);
     border-radius: 20px;
     backdrop-filter: blur(50px);
 
@@ -45,7 +47,7 @@ main img{
 
 }
 
-.login-box{
+.form-box{
 
     padding: 20px;
 
@@ -61,13 +63,13 @@ main img{
 
 }
 
-.login-box img{
+.form-box img{
 
     margin: 0 auto;
 
 }
 
-.login-box h1{
+.form-box h1{
 
     margin: 0 auto;
     margin-top: 5px;
@@ -76,7 +78,7 @@ main img{
 
 }
 
-.login-box form{
+.form-box form{
 
     height: 70%;
 
@@ -175,11 +177,33 @@ form .button-box{
 
 }
 
+.button-box .success:hover{
+    background-color: var(--success-hover);
+}
+
+.button-box .success:active{
+    color: var(--legends);
+
+    background-color: var(--barras);
+    border:2px solid var(--legends);
+}
+
 .button-box .cancel{
 
     background-color: var(--cancel);
     border: none;
     
+}
+
+.button-box .cancel:hover{
+    background-color: var(--cancel-hover);
+}
+
+.button-box .cancel:active{
+    color: var(--cancel);
+
+    background-color: var(--barras);
+    border: 2px solid var(--cancel);
 }
 
 .message-box{
@@ -197,6 +221,14 @@ form .button-box{
 
     color: var(--legends);
 
+}
+
+.message-box a:hover{
+    color: var(--cancel);
+}
+
+.message-box a:active{
+    color: var(--fondo);
 }
 
 
