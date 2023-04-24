@@ -29,11 +29,10 @@ body{
 
 main{
 
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 10px;
 
     width: 400px;
-    height: 500px;
 
     background-color: var(--barras);
     border-radius: 20px;
@@ -102,6 +101,7 @@ form fieldset{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    row-gap: 5px;
 
     border: 0.1rem solid var(--fondo);
     border-bottom: none;
@@ -193,6 +193,11 @@ form .button-box{
     background-color: var(--cancel);
     border: none;
     
+}
+
+.button-box .cancel a{
+    text-decoration: none;
+    color: var(--letra);
 }
 
 .button-box .cancel:hover{

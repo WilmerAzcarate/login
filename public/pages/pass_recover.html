@@ -15,15 +15,15 @@
             <form action="">
                 <fieldset>
                     <legend>Correo de recuperación</legend>
-                    <label for="userName">Correo electronico:</label>
-                    <input type="text" name="userName" id="userName" placeholder="Ingrese su correo de recuperación" required>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su correo de recuperación" required>
                 </fieldset>
                 <div class="button-box">
                     <input class="box_button success" type="submit" value="Enviar codigo">
-                    <input class="box_button cancel" type="reset" value="Cancelar">
+                    <button class="box_button cancel" type="reset"><a href="/index.html">Cancelar</a></button>
                 </div>
                 <div class="message-box">
-                    <span>¿No tienes cuenta? <a href="#">Crear Cuenta</a></span>
+                    <span>¿No tienes cuenta? <a href="/public/pages/register.html">Crear Cuenta</a></span>
                 </div>
             </form>
         </div>

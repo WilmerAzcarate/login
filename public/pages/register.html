@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/public/source/icons/icono.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="form-box">
+            <h1>Crear Cuenta</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Nombres</legend>
+                    <label for="firstName">Primer nombre:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Ingrese su primer nombre" required>
+                    <label for="secondName">Segundo nombre:</label>
+                    <input type="text" name="secondtName" id="secondName" placeholder="Ingrese su segundo nombre">
+                </fieldset>
+                <fieldset>
+                    <legend>Apellidos</legend>
+                    <label for="lastName">Primer apellido:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Ingrese su primer apellido" required>
+                    <label for="secondLastName">Segundo apellido:</label>
+                    <input type="text" name="secondLastName" id="secondLastName" placeholder="Ingrese su segundo apellido">
+                </fieldset>
+                <fieldset>
+                    <legend>Credenciales de acceso</legend>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese un correo electronico" required>
+                    <label for="userName">Nombre de usuario:</label>
+                    <input type="text" name="userName" id="userNme" placeholder="Ingrese un nombre de usuario" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Crear contraseña</legend>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
+                    <label for="cPassword">Confirmar:</label>
+                    <input type="password" name="cPassword" id="cPassword" placeholder="Ingresar contraseña nuevamente" required>
+                </fieldset>
+                <div class="button-box">
+                    <input class="box_button success" type="submit" value="Registrarse">
+                    <button class="box_button cancel" type="reset"><a href="/index.html">Cancelar</a></button>
+                </div>
+                <div class="message-box">
+                    <span>¿Ya tienes cuenta? <a href="/index.html">Inicia sesión</a></span>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
