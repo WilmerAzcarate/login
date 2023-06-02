@@ -17,3 +17,6 @@ hacer un nav con los siguientes campos
 3. dentro de cada article debe tener sections
 4. cada section debe tener un titulo, el primer subtitulo (h2)
 
+# Enlaces a obtencion de iconos
+1. https://cdnjs.com/libraries/font-awesome
+2. https://fontawesome.com/search?o=r&m=free&s=regular
