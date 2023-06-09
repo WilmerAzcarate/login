@@ -176,6 +176,12 @@ form .button-box{
     border: none;
 
 }
+.button-box .success a{
+
+    text-decoration: none;
+    color: var(--letra);
+
+}
 
 .button-box .success:hover{
     background-color: var(--success-hover);
